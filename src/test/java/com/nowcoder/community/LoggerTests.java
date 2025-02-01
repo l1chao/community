@@ -1,6 +1,6 @@
 package com.nowcoder.community;
 
-import com.newcoder.community.CommunityApplication;
+import com.nowcoder.community.CommunityApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@ContextConfiguration(classes = CommunityApplication.class)
+//@ContextConfiguration(classes = CommunityApplication.class) //只要配置类有@SpringBootApplication注解就不用这里声明配置类。
 public class LoggerTests {
 
     //通过Logger的工厂方法获取Logger

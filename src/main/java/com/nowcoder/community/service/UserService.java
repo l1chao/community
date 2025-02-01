@@ -1,15 +1,9 @@
-package com.newcoder.community.service;
+package com.nowcoder.community.service;
 
-import com.newcoder.community.dao.UserMapper;
-import com.newcoder.community.entity.User;
+import com.nowcoder.community.dao.UserMapper;
+import com.nowcoder.community.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-/**
- * @Auther: yzz
- * @Date: 2025-01-23
- * @Description:
- */
 
 @Service
 public class UserService {
@@ -17,9 +11,8 @@ public class UserService {
     @Autowired
     private UserMapper userMapper;
 
-    public User findUserById(int id){
+    public User findUserById(int id) {
         return userMapper.selectById(id);
     }
-
 
 }

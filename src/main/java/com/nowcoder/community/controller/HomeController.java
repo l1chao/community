@@ -1,10 +1,10 @@
-package com.newcoder.community.controller;
+package com.nowcoder.community.controller;
 
-import com.newcoder.community.entity.DiscussPost;
-import com.newcoder.community.entity.Page;
-import com.newcoder.community.entity.User;
-import com.newcoder.community.service.DiscussPostService;
-import com.newcoder.community.service.UserService;
+import com.nowcoder.community.entity.DiscussPost;
+import com.nowcoder.community.entity.Page;
+import com.nowcoder.community.entity.User;
+import com.nowcoder.community.service.DiscussPostService;
+import com.nowcoder.community.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,7 +22,7 @@ import java.util.Map;
  * @Description:
  */
 
-@Controller //默认是community路由
+@Controller //默认是根路径路由。
 public class HomeController {
     @Autowired
     private DiscussPostService discussPostService;

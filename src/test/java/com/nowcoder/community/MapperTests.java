@@ -1,10 +1,10 @@
 package com.nowcoder.community;
 
-import com.newcoder.community.CommunityApplication;
-import com.newcoder.community.dao.DiscussPostMapper;
-import com.newcoder.community.dao.UserMapper;
-import com.newcoder.community.entity.DiscussPost;
-import com.newcoder.community.entity.User;
+import com.nowcoder.community.CommunityApplication;
+import com.nowcoder.community.dao.DiscussPostMapper;
+import com.nowcoder.community.dao.UserMapper;
+import com.nowcoder.community.entity.DiscussPost;
+import com.nowcoder.community.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

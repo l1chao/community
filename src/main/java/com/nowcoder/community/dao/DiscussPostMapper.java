@@ -1,10 +1,9 @@
-package com.newcoder.community.dao;
+package com.nowcoder.community.dao;
 
-import com.newcoder.community.entity.DiscussPost;
+import com.nowcoder.community.entity.DiscussPost;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
